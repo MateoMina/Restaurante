@@ -4,7 +4,7 @@ function HomeAdminUsers(){
     const [users, setUsers] = useState([]);
     async function getUsers() {
         try {
-            const response = await fetch(`http://localhost:4000/v1/restaurant/users`);
+            const response = await fetch(`https://parcial3-rouge.vercel.app/v1/restaurant/users`);
             const responseData = await response.json();
             setUsers(responseData);
         } catch (error) {
@@ -21,7 +21,7 @@ function HomeAdminUsers(){
         event.preventDefault();
         setLoading(true);
 
-        fetch(`http://localhost:4000/v1/restaurant/user`, {
+        fetch(`https://parcial3-rouge.vercel.app/v1/restaurant/user`, {
             method: 'POST',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify({"id": 1, "user": username, "password": password, "role": rol, "activate": true})
@@ -46,7 +46,7 @@ function HomeAdminUsers(){
 
     const deleteUser = async (user) => {
         try {
-            const response = await fetch(`http://localhost:4000/v1/restaurant/user?user=${user}`, {
+            const response = await fetch(`https://parcial3-rouge.vercel.app/v1/restaurant/user?user=${user}`, {
                 method: 'DELETE',
                 headers: { 'Content-Type': 'application/json' }
             });
@@ -75,7 +75,7 @@ function HomeAdminUsers(){
         event.preventDefault();
         setLoading(true);
 
-        fetch(`http://localhost:4000/v1/restaurant/user`, {
+        fetch(`https://parcial3-rouge.vercel.app/v1/restaurant/user`, {
             method: 'PUT',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify({ "user": username, "password": password, "role": rol, "activate": true})

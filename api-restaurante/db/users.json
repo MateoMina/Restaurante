@@ -2,7 +2,7 @@
   {
     "id": "1",
     "user": "admin",
-    "password": "123",
+    "password": "admin",
     "role": "admin",
     "activate": true
   },

@@ -5,7 +5,7 @@ function HomeAdminSales(){
     const [sales, setSales] = useState([]);
     async function getSales() {
         try {
-            const response = await fetch(`http://localhost:4000/v1/restaurant/sales`);
+            const response = await fetch(`https://parcial3-rouge.vercel.app/v1/restaurant/sales`);
             const responseData = await response.json();
             setSales(responseData);
         } catch (error) {

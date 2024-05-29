@@ -5,7 +5,7 @@ function HomeMesero({ userName }){
     const [products, setProducts] = useState([]);
     async function getProducts() {
         try {
-            const response = await fetch(`http://localhost:4000/v1/restaurant/products`);
+            const response = await fetch(`https://parcial3-rouge.vercel.app/v1/restaurant/products`);
             const responseData = await response.json();
             setProducts(responseData);
         } catch (error) {
@@ -73,7 +73,7 @@ function HomeMesero({ userName }){
         console.log("order", order);
         setLoading(true);
 
-        fetch(`http://localhost:4000/v1/restaurant/sales`, {
+        fetch(`https://parcial3-rouge.vercel.app/v1/restaurant/sales`, {
             method: 'POST',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(order)
