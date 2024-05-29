@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "user": "admin",
+    "password": "123",
+    "role": "admin",
+    "activate": true
+  },
+  {
+    "id": "1",
+    "user": "Cocinero",
+    "password": "Cocinero2023",
+    "role": "cocina",
+    "activate": "true"
+  },
+  {
+    "id": "1",
+    "user": "Mesero",
+    "password": "Mesero2023",
+    "role": "mesero",
+    "activate": "true"
+  }
+]

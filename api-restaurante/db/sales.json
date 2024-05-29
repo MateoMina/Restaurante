@@ -1,0 +1,109 @@
+[
+  {
+    "id": "1KJSDG674GSDEBS",
+    "mesero": "pedro",
+    "mesa": "4",
+    "estado": "Listo",
+    "productos": [
+      {
+        "producto": "hamburguesa",
+        "cantidad": "2",
+        "nota": "sin cebolla",
+        "total": "30000"
+      },
+      {
+        "producto": "pizza",
+        "cantidad": "2",
+        "nota": "borde queso",
+        "total": "40000"
+      },
+      {
+        "producto": "mateada",
+        "cantidad": "4",
+        "nota": "granizada",
+        "total": "40000"
+      }
+    ],
+    "totalventa": "110000"
+  },
+  {
+    "id": "2KJSDG674GSDEBS",
+    "mesero": "juan",
+    "mesa": "10",
+    "estado": "Listo",
+    "productos": [
+      {
+        "producto": "Margarita",
+        "cantidad": "1",
+        "nota": "doble tequila",
+        "total": "45000"
+      }
+    ],
+    "totalventa": "45000"
+  },
+  {
+    "id": "3KJSDG674GSDEBS",
+    "mesero": "pedro",
+    "mesa": "1",
+    "estado": "Listo",
+    "productos": [
+      {
+        "producto": "hamburguesa",
+        "cantidad": "2",
+        "nota": "",
+        "total": 30000
+      },
+      { "producto": "pizza", "cantidad": "1", "nota": "", "total": 20000 }
+    ],
+    "totalventa": 50000
+  },
+  {
+    "id": "ca398f4b-44ae-4703-a8f3-d2a01cb90d17",
+    "mesero": "mesero@gmail.com",
+    "mesa": "1",
+    "estado": "Listo",
+    "productos": [
+      {
+        "producto": "hamburguesa",
+        "cantidad": "2",
+        "nota": "",
+        "total": 30000
+      },
+      { "producto": "pizza", "cantidad": "1", "nota": "", "total": 20000 }
+    ],
+    "totalventa": 50000
+  },
+  {
+    "id": "e36b8169-ed47-4ba3-98a4-bbfa82ac7aaf",
+    "mesero": "Mesero",
+    "mesa": "2",
+    "estado": "Listo",
+    "productos": [
+      { "producto": "ceviche", "cantidad": "2", "nota": "", "total": 50000 }
+    ]
+  },
+  {
+    "id": "066640e1-531e-4f8d-8ab6-afc01ee040bb",
+    "mesero": "Mesero",
+    "mesa": "2",
+    "estado": "Listo",
+    "productos": [
+      { "producto": "hamburguesa", "cantidad": "1", "nota": "", "total": 15000 }
+    ]
+  },
+  {
+    "id": "b3d9f204-97f2-4bce-a420-631c472c4e43",
+    "mesero": "Mesero",
+    "mesa": "2",
+    "estado": "Listo",
+    "productos": [
+      {
+        "producto": "hamburguesa",
+        "cantidad": "8",
+        "nota": "",
+        "total": 120000
+      }
+    ],
+    "totalventa": 120000
+  }
+]

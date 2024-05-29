@@ -1,0 +1,21 @@
+[
+  {
+    "id": "EF45657784AB454",
+    "name": "hamburguesa",
+    "price": "15000",
+    "activate": "true"
+  },
+  {
+    "id": "EF4564A5545B454",
+    "name": "pizza",
+    "price": "20000",
+    "activate": "true"
+  },
+  {
+    "id": "EF4564A45987454",
+    "name": "ceviche",
+    "price": "25000",
+    "activate": "false"
+  },
+  { "id": 1, "name": "cerveza", "price": "20000", "activate": true }
+]
