@@ -1,0 +1,17 @@
+.state-login {
+    height: 100vh;
+    display: flex;
+    background: var(--bs-dark);
+    color: var(--br-color-white);
+}
+
+.state-login__left {
+    align-content: center;
+    padding: 0px 10%;
+}
+
+.state-login__right {
+    background: center / contain no-repeat url("https://www.gastroeconomy.com/wp-content/uploads/2012/02/Restaurant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

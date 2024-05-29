@@ -1,0 +1,72 @@
+:root {
+    --br-font-family: 'Roboto', sans-serif;
+    --br-font-weight: 500;
+    --br-radius: 8px;
+
+    /* Colors */
+    --br-color-white: #fff;
+    --br-color-primary: #302f35;
+
+}
+
+* {
+    font-family: var(--br-font-family);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 12pt;
+}
+
+select option {
+    color: var(--br-color-primary) !important;
+}
+
+body {
+    background: var(--br-color-primary);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, p, small {
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+table thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.btn-primary-white {
+    background: var(--br-color-white);
+    color: var(--br-color-primary);
+}
+
+.btn-primary-white:hover {
+    border: 1px solid var(--br-color-white);
+}
+
+.btn-secondary-violet {
+    background: var(--br-color-primary);
+    color: var(--br-color-white);
+}
+
+.btn-secondary-violet:hover {
+    border: 1px solid var(--br-color-primary);
+}
+
+.table-cocina {
+    width: 50%;
+}

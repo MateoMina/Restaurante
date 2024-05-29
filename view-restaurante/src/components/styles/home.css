@@ -1,0 +1,25 @@
+.home {
+    color: var(--br-color-white);
+    
+}
+.home__toolbar {
+    background: var(--bs-dark);
+    color: var(--br-color-white) !important;
+    align-content: center;
+    height: 70px;
+    padding: 0px 20px;
+}
+
+.home__toolbar_picture {
+    width: 60px;
+    height: 60px;
+    background: rgb(48, 11, 11);
+    border-radius: 100px;
+    background: center / contain no-repeat url("https://images.pexels.com/photos/784633/pexels-photo-784633.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home__content {
+    padding: 20px;
+}
