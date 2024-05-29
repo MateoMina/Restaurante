@@ -1,0 +1,23 @@
+.background {
+  background-image: url('..//img/2.jpg'); /* Reemplaza 'background.jpg' con la ruta de tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  color: #007bff;
+}
+
+ul {
+  max-height: 150px;
+  overflow-y: auto;
+}
