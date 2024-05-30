@@ -3,10 +3,11 @@ const express = require('express');
 const User = require('../models/User');
 
 const login = async (req, res) => {
-    const { user: username, password } = req.body;
+    const { username, password } = req.body;
 
     try {
         const userFound = await User.findOne({ user: username });
+        console.log('userFound', userFound)
         if (userFound) {
             if (userFound.password === password) {
                 res.json(userFound);

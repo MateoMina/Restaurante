@@ -16,14 +16,14 @@ app.use(json());
 app.use(cors());
 app.use('/v1/restaurant', router);
 
-app.use((req, res, next) => {
-    res.setHeader("Access-Control-Allow-Origin", "https://parcial3-ggag.vercel.app");
-    res.header(
-        "Access-Control-Allow-Headers",
-        "Origin, X-Requested-With, Content-Type, Accept"
-    );
-    next();
-});
+// app.use((req, res, next) => {
+// res.setHeader("Access-Control-Allow-Origin", "https://parcial3-ggag.vercel.app");
+// res.header(
+//     "Access-Control-Allow-Headers",
+//     "Origin, X-Requested-With, Content-Type, Accept"
+// );
+// next();
+// });
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
